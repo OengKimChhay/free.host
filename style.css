@@ -1,7 +1,56 @@
-h1 {
-  font-size: 64px;
-  font-family: 'Poppins', sans-serif;
-  margin-bottom: 0;
-  line-height: 1;
-  font-weight: 700;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+ body{
+     font-family: 'Comfortaa', cursive;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     -webkit-transform: translate(-50%, -50%);
 }
+ h1 {
+     font-size: 64px;
+     margin-bottom: 0;
+     line-height: 1;
+     font-weight: 700;
+}
+ h1:before{
+     content:'';
+     animation: animate infinite 8s;
+}
+ p{
+     text-align: center;
+}
+ @keyframes animate{
+     0%{
+         content: 'C' 
+    }
+     10%{
+         content: 'Co' 
+    }
+     20%{
+         content: 'Com' 
+    }
+     30%{
+         content: 'Comi' 
+    }
+     40%{
+         content: 'Comin' 
+    }
+     50%{
+         content: 'Coming' 
+    }
+     60%{
+         content: 'Coming S' 
+    }
+     70%{
+         content: 'Coming So' 
+    }
+     80%{
+         content: 'Coming Soo' 
+    }
+     90%{
+         content: 'Coming Soon' 
+    }
+     100%{
+         content: 'Coming Soon!' 
+    }
